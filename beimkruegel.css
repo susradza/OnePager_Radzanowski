@@ -88,6 +88,12 @@ text {
     object-fit: cover;
     z-index: 2;
 }
+.curved-name {
+  margin-left: 12.6rem;
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+  width: 20rem;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -244,7 +250,6 @@ text {
   transform: translateY(18px);
 }
 .menu-dishes img {
-  
   width: 100%;
   object-fit: cover;
   border-radius: 0;
@@ -253,6 +258,7 @@ text {
   padding: 0rem 0.75rem 0rem;
   font-size: 0.9rem;
 }
+
 /* Info Box */
 .info-box {
     display: flex;
@@ -292,7 +298,6 @@ text {
 }
 
 /* Formular für die Menü-Auswahl */
-
 .form {
   padding: 5rem 0 6rem;
   background: url("Img/weddingRoom.jpg") center/cover no-repeat;
@@ -313,7 +318,6 @@ text {
   transform: translateY(40px);
   margin-bottom: -20rem;
 }
-
 #form-title {
   margin-top: 0;
   text-align: center;
@@ -323,7 +327,6 @@ text {
 .form-content p {
   margin: 0.7rem 0 1.6rem;
 }
-
 fieldset {
   border: 0;
   padding: 0;
@@ -354,12 +357,11 @@ select {
   padding: 0.7rem 1rem;
   font-size: 1rem;
 }
-
 .btn {
   display: inline-block;
   margin: 0 auto;
   background: var(--beimkruegel-clr-3);
-  color: #fff;
+  color: var(--beimkruegel-clr-5);
   border: 0;
   padding: 0.7rem 2.4rem;
   border-radius: 999px;
@@ -371,7 +373,6 @@ select {
   opacity: 0;
   pointer-events: none;
 }
-
 .form-feedback {
   display: none;
   margin: 1.3rem auto 0;
