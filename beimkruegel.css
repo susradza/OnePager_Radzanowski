@@ -426,6 +426,7 @@ select {
   background: var(--beimkruegel-clr-3);
   color: var(--beimkruegel-clr-5);
   padding: 0.9rem 2.6rem;
+  border: none;
   border-radius: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
@@ -434,6 +435,7 @@ select {
 .btn:hover {
   background: var(--beimkruegel-clr-4);
   color: var(--beimkruegel-clr-5);
+  border: none;
 }
 .form-toggle {
   position: absolute;
